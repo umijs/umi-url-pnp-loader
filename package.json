@@ -1,5 +1,5 @@
 {
-  "name": "url-loader",
+  "name": "umi-url-pnp-loader",
   "version": "1.1.2",
   "description": "A loader for webpack which transforms files into base64 URIs",
   "license": "MIT",
@@ -42,6 +42,7 @@
     "webpack": "^3.0.0 || ^4.0.0"
   },
   "dependencies": {
+    "file-loader": "^1.1.6",
     "loader-utils": "^1.1.0",
     "mime": "^2.0.3",
     "schema-utils": "^1.0.0"
@@ -65,7 +66,6 @@
     "eslint": "^4.13.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.4.0",
-    "file-loader": "^1.1.6",
     "husky": "^0.14.3",
     "jest": "^22.0.3",
     "jest-serializer-path": "^0.1.15",
